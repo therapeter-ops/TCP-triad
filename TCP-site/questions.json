@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "T-10-01",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "When you see how much time is left for a task, how strongly do you feel stress or panic?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-02",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "When your workload increases, how well does your sense of timing hold up?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-03",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How often do you underestimate how long things will take and feel pressed because of it?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-04",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How easily can you continue working when time pressure increases?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-05",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How often do you feel there is ‘not enough time’, even when nothing urgent is happening?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-06",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How well can you switch between tasks without feeling that time is slipping away?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-07",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How accurately can you estimate how long tasks will take?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-08",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "How much recovery time do you need between activities?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-10-09",
+    "dimension": "T",
+    "answer_type": "Numerical scale",
+    "text": "On a scale of 1 (slow) to 10 (fast), how does your sense of time return to normal after a busy period?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-01",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "When times goes fast it doesn’t surprise me",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-02",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "At the end of the day do you feel you got things done?",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-03",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "When plans change, I adjust easily to the new timing.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-04",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "When several tasks demand attention, I usually know which one to do first.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-05",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "I usually know what part of the week it is.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-06",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "When I have a clear deadline, my reaction is:",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-07",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "When new work appears late in the day, I tend to:",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-08",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "I tend to feel impatient with the pace at which time passes.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AB-09",
+    "dimension": "T",
+    "answer_type": "Binary",
+    "text": "I usually feel oriented in the flow of my day",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-01",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "When you think about your day, it usually feels:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-02",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "Your typical pace during the day is closest to:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-03",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "When something takes longer than expected, you usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-04",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "Your experience of time during focused activity is usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT05",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "When several things need attention at once, you tend to:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-06",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "How do you usually deal with a deadline",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-07",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "Your sense of time across a typical week feels:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-08",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "When the weekend starts, you usually feel:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CAT-09",
+    "dimension": "T",
+    "answer_type": "Categorical choice",
+    "text": "At the end of the day, your sense of how the day went in time terms is:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-01",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "How hard is it for you to get started with the day compared to last month?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-02",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "Compared to last week, how predictable did today’s timing feel?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-03",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "When you plan things these days, how does it work out compared to last month?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-04",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "Compared to last week, how rushed did transitions between activities feel today?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-05",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "Compared to last week, how manageable did today’s time demands feel?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-06",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "Compared to last week, how clearly did the day progress from one part to the next?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-07",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "Compared to last week, how balanced did your pace feel across the day?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-08",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "When you start work or chores these days, how rushed do you feel compared to last month?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-COB-09",
+    "dimension": "T",
+    "answer_type": "Comparative Baseline",
+    "text": "The act of finishing things lately feels:",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-01",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week How often did you start the day later than you intended?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-02",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week How often did time feel tighter than expected?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-03",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week How often did you feel unsure what to do first?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-04",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week How often did you feel exhausted from time pressure by the end of the day?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-05",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week How often did you feel rushed moving from one activity to another?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-06",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week how often did you feel satisfied when you finished what you were doing?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-07",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week how often did you feel ahead of schedule or comfortably on time?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-08",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "On a Sunday evening how often do you feel stressed about the coming week?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-CFB-09",
+    "dimension": "T",
+    "answer_type": "Comp. Frequency Bands",
+    "text": "During the past week how often did it feel like there were many more things to do than time available?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-01",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past week, how many times did you feel you had too little time to do what you planned?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-02",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past week, how often did you postpone something because you felt overwhelmed by time pressure?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-03",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past week, how many times did you realise you misjudged how long something would take?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-04",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past week, how many times did you feel behind schedule without a clear reason?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-05",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past week, how many times did you stop an activity because you felt you were running out of time?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-06",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past month, how many times did you feel your days were too full?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-07",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past month, how many times did you feel you had enough time to finish what you started?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-08",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past month, how many times did you feel time pressure affected your choices?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-TW-09",
+    "dimension": "T",
+    "answer_type": "Time Window",
+    "text": "In the past month, how many times did you feel in control of how you used your time?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-01",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I hate weekdays.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-02",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I used to experience a steady flow in my daily activities, but now it feels more chaotic",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-03",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I need more sleep than I used to.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-04",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I feel energetic in the morning after my first coffee.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-05",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I often check whether I have enough time for a task before starting it.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-06",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "Sometimes I’m scared to look at the time.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-07",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "Time pressure makes it harder for me to think clearly.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-08",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "Deadlines make me more focused rather than more stressed.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "T-AG-09",
+    "dimension": "T",
+    "answer_type": "Agreement",
+    "text": "I usually notice when I’m running behind before it becomes a problem.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-01",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "How clear is the order of importance of things you perceive around you?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-02",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "How often do your senses feel more sensitive than those of most people?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-03",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "When I see a chaotic or cluttered desk, I feel uncomfortable.",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-04",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "I often phase out in the middle of a job.",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-05",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "When I get annoyed, I have trouble continuing what I’m doing.",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-06",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "I often hear people without really processing what they are saying.",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-07",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "How distinct do sounds feel from background noise when you’re focusing on something?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-08",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "How quickly do you notice when something in your environment changes?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-10-09",
+    "dimension": "P",
+    "answer_type": "Numerical scale",
+    "text": "How well can you distinguish potential danger during daily activities (e.g. water too hot, iron hot)?",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-01",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I usually notice small changes in my surroundings.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-02",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I often miss details that others seem to notice.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-03",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I get uncomfortable when people are staring at me.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-04",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I get uncomfortable when someone is standing over my shoulder.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-05",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I get uncomfortable when too many people are walking around my area.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-06",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "Too much noise makes it hard for me to concentrate.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-07",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "Sometimes I feel like the walls are closing in on me.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-08",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "When the phone rings, I often think something bad happened.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AB-09",
+    "dimension": "P",
+    "answer_type": "Binary",
+    "text": "I can get so deep into what I’m doing that I feel disconnected from the outside world.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-01",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When several sounds are present at once, you usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-02",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "In a visually busy place, your perception is usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-03",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When someone speaks to you while you’re focused, you:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-04",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "Your awareness of what’s happening around you while working is usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT05",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When something unexpected happens nearby, you tend to:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-06",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When many things are happening at once, your perception tends to:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-07",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "My living space is usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-08",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When information comes in quickly, you usually:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CAT-09",
+    "dimension": "P",
+    "answer_type": "Categorical choice",
+    "text": "When I say something inappropriate or incorrect, I usually become aware of it:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-01",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how clearly did you notice what was happening around you today?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-02",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how easy was it to follow what people were saying to you?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-03",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often did important details stand out to you without effort?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-04",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how aware were you of changes in your environment as they happened?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-05",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often did your surroundings feel overwhelming or hard to take in?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-06",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how clearly could you distinguish what mattered from background noise or activity?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-07",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often did you later realize you had missed something important?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-08",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how stable did your sense of space and surroundings feel today?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-COB-09",
+    "dimension": "P",
+    "answer_type": "ComParative Baseline",
+    "text": "Overall, compared to last month, how reliable did your perception feel today?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-01",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "When it seems that people are ignoring you, how often do you feel panic?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-02",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "Do you ask the same question more than once without realizing it?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-03",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "When you go to the bathroom, how often do you suddenly realize you don’t remember how you got there?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-04",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "When you see people around you having fun, how often does it affect you negatively?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-05",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "When something keeps happening in your environment, how often does it bother you?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-06",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you hear people without really processing what they are saying?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-07",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you forget what you were going to do next?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-08",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "When someone answers you, how often does it not register the first time?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-CFB-09",
+    "dimension": "P",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel that your surroundings are “too much” to take in at once?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-01",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you realize you hadn’t registered what someone just said?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-02",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did background noise make it hard to notice what mattered?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-03",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel briefly disoriented about what you were doing?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-04",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you realize later that you had misunderstood something you heard?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-05",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you tell yourself you were going to do something and then didn’t do it?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-06",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did people not understand what you were asking, even though you thought it was clear?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-07",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you realize people were talking to you without you noticing it at first?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-08",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel visually overloaded in busy or cluttered spaces?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-TW-09",
+    "dimension": "P",
+    "answer_type": "Time Window",
+    "text": "How many times did you notice that people changed their attitude toward you?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-01",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I don’t panic easily.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-02",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I often realize later that my first impression missed something relevant.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-03",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I trust my perception even when others see things differently.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-04",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I often think I don’t express myself clearly.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-05",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "People staring at me makes me feel insecure.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-06",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I tend to believe my perception gives me a complete picture of what’s going on.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-07",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I’m aware that my attention can narrow without me noticing it.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-08",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I often think people around me talk too loud.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "P-AG-09",
+    "dimension": "P",
+    "answer_type": "Agreement",
+    "text": "I finish what I started.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-01",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you doubt about yourself sometimes, how much",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-02",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you doubt about reality sometimes, if so how much",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-03",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "How well do you interact with other people",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-04",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "To what extent do you consider your place your “home”",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-05",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you often feel lonely in a group",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-06",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you feel like friends are judging or checking you when they drop by your place",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-07",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you feel rejected when someone corrects you",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-08",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you sometimes feel the world is against you",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-10-09",
+    "dimension": "C",
+    "answer_type": "Numerical scale",
+    "text": "Do you recognize success in your life",
+    "answers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-01",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "It’s always my fault",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-02",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "Every morning I worry what today is going to bring.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-03",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "Luck is for other people.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-04",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "I find it difficult to give.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-05",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "It’s hard to find my place in this world.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-06",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "I consider myself important.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-07",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "It’s hard to be alone.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-08",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "My family supports me.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AB-09",
+    "dimension": "C",
+    "answer_type": "Binary",
+    "text": "I find it hard to say no.",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-01",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When you make a mistake, what happens first?",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-02",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When you’re alone with your thoughts, you mostly feel:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-03",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When something important ends, you usually feel:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-04",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When someone asks for help you tend to",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT05",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When people get close to you, you tend to:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-06",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When someone asks for help you tend to",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-07",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When you feel overwhelmed, you mostly:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-08",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "When you think about your future, it feels:",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CAT-09",
+    "dimension": "C",
+    "answer_type": "Categorical choice",
+    "text": "Which description fits you best right now?",
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-01",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you doubt yourself?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-02",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel emotionally affected by what others say or do?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-03",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you reflect on who you are and where you’re going?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-04",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel disconnected from what you’re doing?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-05",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel confident in your decisions?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-06",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel misunderstood by others?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-07",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel engaged with your life overall?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-08",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you question your own motives or intentions?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-COB-09",
+    "dimension": "C",
+    "answer_type": "ComParative Baseline",
+    "text": "Compared to last month, how often do you feel aligned with what matters to you?",
+    "answers": [
+      "less than usual",
+      "about the same",
+      "more than usual"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-01",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel responsible for how others feel around you?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-02",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you replay conversations in your head afterward?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-03",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel disconnected from what you’re doing, even while doing it?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-04",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you question whether you’re living the life you should be living?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-05",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel misunderstood by people close to you?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-06",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you doubt your own decisions after making them?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-07",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel emotionally flat or distant from things that used to matter?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-08",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel pressure to be someone other than who you are?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-CFB-09",
+    "dimension": "C",
+    "answer_type": "ComP. Frequency Bands",
+    "text": "How often do you feel that you’re just getting through the day rather than really living it?",
+    "answers": [
+      "never",
+      "rarely",
+      "sometimes",
+      "often",
+      "always"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-01",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you notice yourself judging your own thoughts or reactions?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-02",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you pause to question why you reacted the way you did?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-03",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel unsure about who you are or what you want?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-04",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel emotionally detached from what you were doing?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-05",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel responsible for fixing how a situation made others feel?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-06",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you reflect on whether your actions matched what matters to you?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-07",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you value yourself based on how others reacted to your presence?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-08",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you feel pulled between who you are and who you think you should be?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-TW-09",
+    "dimension": "C",
+    "answer_type": "Time Window",
+    "text": "How many times did you question whether you are living in a way that feels true to you?",
+    "answers": [
+      "never",
+      "once",
+      "a few times",
+      "many times"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-01",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I often feel like I’m harder on myself than other people are.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-02",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I feel responsible for making my life turn out well.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-03",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I sometimes feel disconnected from who I really am.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-04",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I believe my reactions usually make sense given my experiences.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-05",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I often feel torn between what I want and what I think I should want.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-06",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I feel comfortable with who I am, even when things aren’t going well.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-07",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I often question whether I’m living the right kind of life.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-08",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I feel free to be myself without constantly adjusting to others.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "C-AG-09",
+    "dimension": "C",
+    "answer_type": "Agreement",
+    "text": "I feel that my life has a direction, even if it’s not fully clear yet.",
+    "answers": [
+      "strongly disagree",
+      "disagree",
+      "neutral",
+      "agree",
+      "strongly agree"
+    ],
+    "is_meta": false
+  },
+  {
+    "id": "META 1",
+    "dimension": null,
+    "answer_type": "Meta",
+    "text": "I think these questions will help me",
+    "answers": [
+      "yes",
+      "no"
+    ],
+    "is_meta": true
+  }
+]

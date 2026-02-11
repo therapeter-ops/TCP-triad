@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TCP – Phase One Questionnaire</title>
+
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  connect-src 'self' https://tcp-api-842f.petertsas.workers.dev https:;
+  img-src 'self' data:;
+  script-src 'self' 'unsafe-inline';
+  style-src 'self' 'unsafe-inline';
+">
+
+
+<style>
+  html, body { margin: 0; padding: 0; }
+
+  .page { position: relative; width: 1200px; height: 1000px; }
+
+  .bg {
+    position: absolute;
+    inset: 0;
+    width: 1200px; height: 1000px;
+    z-index: 1;
+    display: block;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+  #tcp-counter { position: absolute; left: 137px; top: 300px; z-index: 20; font-size: 16px; color: #000; }
+  #tcp-question { position: absolute; left: 137px; top: 347px; width: 690px; height: 90px; z-index: 10; font-size: 26px; line-height: 1.25; color: #000; padding: 10px 20px; }
+  #tcp-answers { position: absolute; left: 137px; top: 479px; width: 688px; height: 93px; z-index: 10; display: flex; gap: 12px; padding-left: 20px; }
+  #tcp-answers button { font-size: 20px; padding: 6px 16px; background: none; border: none; cursor: pointer; color: #000; }
+  #tcp-answers button.selected { color: #c40000; font-weight: 700; }
+
+  #tcp-next { position: absolute; left: 679px; top: 759px; width: 144px; height: 52px; z-index: 10; display: flex; align-items: center; justify-content: center; font-size: 20px; font-weight: 700; color: #fff; }
+  #tcp-next.disabled { opacity: 0.4; pointer-events: none; }
+  #tcp-next.enabled { cursor: pointer; }
+
+  #tcp-error { position: absolute; left: 137px; top: 300px; width: 690px; z-index: 50; color: red; font-size: 16px; }
+</style>
+</head>
+
+<body>
+<div class="page">
+  <img src="TCP-page2.svg" class="bg" alt="">
+  <div id="tcp-counter"></div>
+  <div id="tcp-error"></div>
+  <div id="tcp-question"></div>
+  <div id="tcp-answers"></div>
+  <div id="tcp-next" class="disabled">Next</div>
+</div>
+
+<script>
+const API_BASE = "https://tcp-api-842f.petertsas.workers.dev";
+
+const runId = localStorage.getItem("tcp_run_id") || crypto.randomUUID();
+localStorage.setItem("tcp_run_id", runId);
+
+let questions = [];
+let idx = 0;
+let selected = null;
+
+const qEl = document.getElementById("tcp-question");
+const aEl = document.getElementById("tcp-answers");
+const nextBtn = document.getElementById("tcp-next");
+const counterEl = document.getElementById("tcp-counter");
+const errEl = document.getElementById("tcp-error");
+
+function render() {
+  const q = questions[idx];
+  if (!q) return;
+
+  counterEl.textContent = `Question ${idx + 1} of ${questions.length}`;
+  qEl.textContent = q.text;
+  aEl.innerHTML = "";
+  nextBtn.className = "disabled";
+  selected = null;
+
+  (q.answers || ["yes","no"]).forEach(a => {
+    const b = document.createElement("button");
+    b.textContent = a;
+    b.onclick = () => {
+      selected = a;
+      [...aEl.children].forEach(x => x.classList.remove("selected"));
+      b.classList.add("selected");
+      nextBtn.className = "enabled";
+    };
+    aEl.appendChild(b);
+  });
+}
+
+async function send(q) {
+  await fetch(API_BASE + "/answer", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      run_id: runId,
+      entry_code: localStorage.getItem("tcp_entry_code") || "NNN",
+      meta_code: localStorage.getItem("tcp_meta_code") || null,
+      session_number: 1,
+      question_number: idx + 1,
+      question_id: q.id,
+      category: q.dimension || q.category,
+      answer_type: q.answer_type,
+      answer_value: selected,
+      answers: q.answers,
+      step_value: q.step_value,
+      max: q.max
+    })
+  });
+}
+
+nextBtn.onclick = async () => {
+  if (!selected) return;
+  try { await send(questions[idx]); } catch(e) {}
+  idx++;
+  if (idx >= questions.length) {
+    qEl.textContent = "Thank you.";
+    aEl.innerHTML = "";
+    nextBtn.style.display = "none";
+    return;
+  }
+  render();
+};
+
+async function boot() {
+  try {
+    const res = await fetch("questions.json", { cache: "no-store", headers: { "Accept": "application/json" } });
+    const txt = await res.text();
+    alert(txt.slice(0, 200));
+    let bank;
+    try {
+    bank = JSON.parse(txt);
+  } catch (e) {
+   throw new Error("Response is not JSON");
+} 
+
+
+    // Robust dimension detection (works with T/P/C or full words)
+    function dim(q) {
+      const v = (q.dimension || q.category || "").toString().trim().toLowerCase();
+      if (v === "t" || v.startsWith("time")) return "T";
+      if (v === "p" || v.startsWith("percep")) return "P";
+      if (v === "c" || v.startsWith("consc")) return "C";
+      return null;
+    }
+
+    const Ts = bank.filter(q => dim(q) === "T").slice(0, 8);
+    const Ps = bank.filter(q => dim(q) === "P").slice(0, 8);
+    const Cs = bank.filter(q => dim(q) === "C").slice(0, 8);
+
+    questions = [...Ts, ...Ps, ...Cs];
+
+    // Fallback: if schema changed again, still show questions
+    if (!questions.length) {
+      questions = bank.slice(0, 24);
+    }
+
+    render();
+  } catch (e) {
+    errEl.textContent = "ERROR: " + e.message;
+    console.error(e);
+  }
+}
+
+boot();
+</script>
+</body>
+</html>
