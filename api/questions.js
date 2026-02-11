@@ -1,26 +1,17 @@
-import pg from 'pg';
-const { Pool } = pg;
+import { neon } from "@neondatabase/serverless";
 
 export default async function handler(req, res) {
   try {
-    const pool = new Pool({
-      connectionString: process.env.POSTGRES_URL,
-      ssl: { rejectUnauthorized: false }
-    });
+    const sql = neon(process.env.POSTGRES_URL_NON_POOLING);
 
-    // Ensure public schema is in search path for this connection
-    await pool.query(`SET search_path TO public`);
+    const result = await sql`SELECT * FROM public.questions ORDER BY id;`;
 
-    const result = await pool.query(`
-      SELECT id, dimension, answer_type, text, answers, is_meta
-      FROM public.questions
-      ORDER BY dimension, id;
-    `);
-
-    res.status(200).json(result.rows);
+    res.status(200).json(result);
   } catch (err) {
+    console.error("DB error:", err);
     res.status(500).json({ error: err.message });
   }
 }
+
 
 
