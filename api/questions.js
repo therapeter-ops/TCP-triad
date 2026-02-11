@@ -8,6 +8,9 @@ export default async function handler(req, res) {
       ssl: { rejectUnauthorized: false }
     });
 
+    // Ensure public schema is in search path for this connection
+    await pool.query(`SET search_path TO public`);
+
     const result = await pool.query(`
       SELECT id, dimension, answer_type, text, answers, is_meta
       FROM public.questions
