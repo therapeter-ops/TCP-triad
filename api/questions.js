@@ -4,22 +4,19 @@ export default async function handler(req, res) {
   try {
     const url =
       `postgresql://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}` +
-      `@${process.env.PGHOST_UNPOOLED}/${process.env.PGDATABASE}?sslmode=require`;
+      `@${process.env.NEON_PRIMARY_HOST}/${process.env.PGDATABASE}?sslmode=require`;
 
     const sql = neon(url);
 
-    const tables = await sql`
-      SELECT table_schema, table_name
-      FROM information_schema.tables
-      WHERE table_schema = 'public'
-      ORDER BY table_name;
-    `;
+    const result = await sql`SELECT * FROM public.questions ORDER BY id;`;
 
-    res.status(200).json(tables);
+    res.status(200).json(result);
   } catch (err) {
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 }
+
 
 
 
