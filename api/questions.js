@@ -8,15 +8,14 @@ export default async function handler(req, res) {
       ssl: { rejectUnauthorized: false }
     });
 
-    const result = await pool.query(`
-      SELECT id, dimension, answer_type, text, answers, is_meta
-      FROM questions
-      ORDER BY dimension, id;
+    const r = await pool.query(`
+      SELECT current_database() AS db, current_schema() AS schema;
     `);
 
-    res.status(200).json(result.rows);
+    res.status(200).json(r.rows[0]);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 }
+
 
